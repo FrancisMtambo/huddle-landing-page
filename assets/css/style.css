@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/assets/img/bg-desktop.svg);
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    padding: 80px;
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    width: 35%;
+}
+.btn {
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: lighter;
+}
+
+ul {
+    display: flex;
+    float: right;
+    
+}
+
+ul li {
+    list-style: none;
+    width: 30px;
+}
+
+.social-list {
+    margin: 0 70px 70px 0;
+   }
+
+.fa {
+    color: white;
+
+   }
