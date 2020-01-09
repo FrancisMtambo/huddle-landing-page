@@ -7,23 +7,43 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(/assets/img/bg-desktop.svg);
     color: whitesmoke;
+  
 }
 
+.logo {
+    width: 220px;
+    padding-left: 65px;
+    padding-top: 45px;
+}
 .container {
     display: flex;
-    padding: 80px;
+    padding: 70px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
 }
 
 .left {
-    width: 65%;
+    height: 70vh;
+    width: 62%;
 }
 
 .right {
-    width: 35%;
+    height: 70vh;
+    width: 38%;
 }
 .btn {
-    height: 40px;
-    width: 120px;
+    height: 35px;
+    width: 135px;
     margin-top: 30px;
     border-radius: 20px;
     border-style: none;
@@ -31,6 +51,7 @@ body {
 }
 
 ul {
+    
     display: flex;
     float: right;
     
@@ -38,14 +59,45 @@ ul {
 
 ul li {
     list-style: none;
-    width: 30px;
+    width: 50px;
+    padding-top: 20px;
 }
 
 .social-list {
-    margin: 0 70px 70px 0;
+    padding: 15px 70px 50px 0;
    }
 
 .fa {
     color: white;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
 
    }
+   
+.fa-facebook-f {
+    padding-right: 12px;
+    padding-left: 12px;
+   }
+
+.fa-twitter, .fa-instagram {
+    padding-right: 8px;
+    padding-left: 8px;
+   }
+
+@media screen and (max-width: 375px) {
+
+    body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/assets/img/bg-mobile.svg);
+    color: whitesmoke;
+    }
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+}
