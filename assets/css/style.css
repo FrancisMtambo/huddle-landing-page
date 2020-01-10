@@ -17,7 +17,7 @@ body {
 }
 .container {
     display: flex;
-    padding: 70px;
+    padding: 5vw;
 }
 
 .img {
@@ -48,8 +48,9 @@ img {
 }
 
 .right {
-    height: 70vh;
-    width: 38%;
+    height: auto;
+    width: 30vw;
+    margin: 2vw;
 }
 .btn {
     height: 35px;
@@ -102,18 +103,22 @@ ul li {
     padding-left: 8px;
    }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
 
-    body {
+body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(/assets/img/bg-mobile.svg);
     color: whitesmoke;
     }
 
-    .container {
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
+.logo {
+    width: 150px;
+    padding: auto;
+   
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
 }
