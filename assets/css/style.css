@@ -20,6 +20,10 @@ body {
     padding: 70px;
 }
 
+.img {
+    max-width:100%;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -33,8 +37,14 @@ p {
 }
 
 .left {
-    height: 70vh;
-    width: 62%;
+    height: auto;
+    width: 60vw;
+}
+
+img {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
 }
 
 .right {
@@ -48,10 +58,16 @@ p {
     border-radius: 20px;
     border-style: none;
     font-weight: lighter;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
 
 ul {
-    
     display: flex;
     float: right;
     
