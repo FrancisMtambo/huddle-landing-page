@@ -8,6 +8,7 @@
 body {
   background-color: hsl(257, 40%, 49%);
   background-image: url(/assets/img/bg-desktop.svg);
+  background-size: cover;
   color: whitesmoke;
 }
 
